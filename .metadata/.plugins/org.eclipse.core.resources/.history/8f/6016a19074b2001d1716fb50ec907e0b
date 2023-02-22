@@ -1,0 +1,15 @@
+package br.com.agenda.factory;
+
+public class ConnectionFactory {
+	
+	//nome do user do mysql
+	private static final String USERNAME = "root";
+	
+	//senha do banco
+	
+	private static final String PASSWORD = "";
+	
+	//caminho do bd
+	
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/agenda";
+}
