@@ -1,0 +1,21 @@
+package br.com.agenda.dao;
+
+import java.sql.Connection;
+
+import com.mysql.cj.jdbc.PreparedStatementWrapper;
+
+import br.com.agenda.model.Contato;
+
+public class ContatoDAO {
+	
+	//CRUD
+	
+	public void save(Contato contato) {
+		
+		String sql = "INSERT INTO contatos(nome, idade, dataCadastro) VALUES (?,?,?)";
+		
+		Connection conn = null;
+		PreparedStatementWrapper pstm = null;
+	}
+	
+}
