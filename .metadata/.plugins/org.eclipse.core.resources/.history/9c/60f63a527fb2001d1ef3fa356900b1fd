@@ -13,7 +13,7 @@ public class Main {
 		ContatoDAO contatoDao = new ContatoDAO();
 		Contato contato = new Contato();
 		contato.setNome("Ana Duarte");
-		contato.setIdade(24);
+		contato.setIdade(29);
 		contato.setDataCadastro(new Date());
 		
 		contatoDao.save(contato);
