@@ -12,8 +12,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		ContatoDAO contatoDao = new ContatoDAO();
 		Contato contato = new Contato();
-		contato.setNome("Ana Duarte");
-		contato.setIdade(24);
+		contato.setNome("Gabriel Duarte");
+		contato.setIdade(29);
 		contato.setDataCadastro(new Date());
 		
 		contatoDao.save(contato);
